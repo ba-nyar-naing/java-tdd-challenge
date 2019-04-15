@@ -36,6 +36,7 @@ public class DefaultPhone implements ConnectedPhone {
 
     @Override
     public void pushGreen() {
+        status = PhoneStatus.CALLING;
     }
 
     @Override
