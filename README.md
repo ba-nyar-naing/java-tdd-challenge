@@ -1,4 +1,5 @@
 # Java TDD Challenge
+[![Build Status](https://travis-ci.org/ba-nyar-naing/java-tdd-challenge.svg?branch=master)](https://travis-ci.org/ba-nyar-naing/java-tdd-challenge)
 
 This is a small exercise to practice TDD in Java.
 To participate, please follow these simple steps:
