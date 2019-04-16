@@ -38,6 +38,14 @@ public class DefaultPhoneTest {
     }
     
     @Test
+    public void alice_dial_bob() {
+        assertThat(bob.getStatus(), is(IDLE));
+        alice.dial(BOB);
+        assertThat(alice.getStatus(), is(IDLE));
+        assertThat(bob.getStatus(), is(RINGING));
+    }
+
+    @Test
     public void after_dial_push_green_to_call() {
         alice.dial(BOB);
         alice.pushGreen();
